@@ -47,10 +47,16 @@ nav {
     margin-left: 32px;
     padding: 6px;
 }
-i#menu_burguer {
+
+.menu {
     display: none;
 }
-i#menu_close {
+
+.menuBurgerIcon {
+    display: none;
+}
+
+.closeIcon {
     display: none;
 }
 /*-----------MAIN----------*/
@@ -62,7 +68,7 @@ body {
 }
 .description {
     display: flex;
-    height: 91vh;
+    /* height: 91vh; */
     width: 75vw;
     align-items: center;
     justify-content: center;
@@ -73,7 +79,7 @@ body {
     flex-basis: 50%;
     border-radius: 50%;
     justify-content: center;
-    padding: 15px;
+    /* padding: 15px; */
 }
 .main_photo img {
     width: 350px;
@@ -159,7 +165,7 @@ h1 span {
 .about {
     display: flex;
     flex-direction: column;
-    margin: 30px 40px;
+    margin: 0 40px;
 }
 .titulo-about {
     margin: 50px 20px;
@@ -180,9 +186,9 @@ h1 span {
 }
 /*-------------SKILLS---------------*/
 .skills {
-    margin: 0 40px;
-    display: flex;
+    display: flex;   
     flex-direction: column;
+    margin: 0 40px;
 }
 .titulo-skills {
     margin: 50px 20px;
@@ -231,7 +237,7 @@ h1 span {
     justify-content: center;
 }
 .titulo-works {
-    margin: 50px 80px;
+    margin: 50px 20px;
     padding-top: 25px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -284,7 +290,7 @@ h1 span {
     flex-direction: column;
     background-color: #fff;
     border-radius: 20px;
-    margin: 50px 35px;
+    margin: 0 35px 40px 35px;
     width: 75vw;
     align-items: center;
     justify-content: center;
