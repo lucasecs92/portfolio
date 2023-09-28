@@ -177,7 +177,7 @@ h1 span {
 .information {
     background-color: #fff;
     padding: 30px 10px;
-    border-radius: 50px;
+    border-radius: 20px;
     font-size: 1.1rem;
     letter-spacing: 1px;
     width: 75vw;
@@ -204,7 +204,7 @@ h1 span {
     align-items: center;
     background-color: #fff;
     padding: 30px;
-    border-radius: 50px;
+    border-radius: 20px;
     list-style: none;
     grid-column-gap: 45px;
     grid-row-gap: 50px;
@@ -252,7 +252,7 @@ h1 span {
     justify-content: center;
     align-self: center;
     padding: 30px;
-    border-radius: 50px;
+    border-radius: 20px;
     width: 75vw;
 }
 .grid_items_works {
